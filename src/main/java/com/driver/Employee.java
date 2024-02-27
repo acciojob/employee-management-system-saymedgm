@@ -12,26 +12,24 @@ public class Employee {
     }
 
     public int getEmployeeId() {
-    	// your code goes here
-    	return employeeId;
+        return employeeId;
     }
 
     public String getName() {
-    	// your code goes here
         return name;
     }
 
     public double getSalary() {
-    	// your code goes here
         return salary;
     }
 
     public double calculateTotalSalary() {
-    	// your code goes here
         return salary;
     }
 
     public void displayDetails() {
-    	// your code goes here
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
     }
 }

@@ -11,23 +11,22 @@ public class Manager extends Employee {
     }
 
     public double getBonus() {
-    	// your code goes here
         return bonus;
     }
 
     public int getTeamSize() {
-    	// your code goes here
         return teamSize;
     }
 
     @Override
     public double calculateTotalSalary() {
-    	// your code goes here
         return super.calculateTotalSalary() + bonus;
     }
 
     @Override
     public void displayDetails() {
-    	// your code goes here
+        super.displayDetails();
+        System.out.println("Bonus: " + bonus);
+        System.out.println("Team Size: " + teamSize);
     }
 }
